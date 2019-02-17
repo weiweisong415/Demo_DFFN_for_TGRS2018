@@ -1,5 +1,5 @@
 # Demo_DFFN
-The code implementation of our paper "Hyperspectral Image Classification With Deep Feature Fusion Network", 2018, TGRS.
+The code implementation of our paper "Hyperspectral Image Classification With Deep Feature Fusion Network", IEEE Trans. Geosci. Remote Sens, 2018.
 
 If you use this code, please kindly cite our paper:
 @article{song2018hyperspectral,
