@@ -9,29 +9,29 @@ clc
 %%%%%%%%%%%%%%%%  extracting probabilty from test.log by using sh %%%%%%%%
 
 %%%%%%%%%%%%%%%%%  for Indian Pines image  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-! rm -r info/indian_pines_prob.txt
-! cp info/test_indian_pines.log test_data.log
-! cat test_data.log | grep "Batch ., prob" | awk '{print $9}' >& temp1.txt
-! cat test_data.log | grep "Batch .., prob" | awk '{print $9}' >& temp2.txt
-! cat test_data.log | grep "Batch ..., prob" | awk '{print $9}' >& temp3.txt
-! cat temp3.txt >> temp2.txt
-! cat temp2.txt >> temp1.txt
-! cat temp1.txt >> info/indian_pines_prob.txt
-! rm -r test_data.log temp1.txt temp2.txt temp3.txt
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%  for University of Pavia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ! rm -r info/paviau_prob.txt
-% ! cp info/test_paviau.log test_data.log
+% ! rm -r info/indian_pines_prob.txt
+% ! cp info/test_indian_pines.log test_data.log
 % ! cat test_data.log | grep "Batch ., prob" | awk '{print $9}' >& temp1.txt
 % ! cat test_data.log | grep "Batch .., prob" | awk '{print $9}' >& temp2.txt
 % ! cat test_data.log | grep "Batch ..., prob" | awk '{print $9}' >& temp3.txt
-% ! cat test_data.log | grep "Batch ...., prob" | awk '{print $9}' >& temp4.txt
-% ! cat temp4.txt >> temp3.txt
 % ! cat temp3.txt >> temp2.txt
 % ! cat temp2.txt >> temp1.txt
-% ! cat temp1.txt >> info/paviau_prob.txt
-% ! rm -r test_data.log temp1.txt temp2.txt temp3.txt temp4.txt
+% ! cat temp1.txt >> info/indian_pines_prob.txt
+% ! rm -r test_data.log temp1.txt temp2.txt temp3.txt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%  for University of Pavia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+! rm -r info/paviau_prob.txt
+! cp info/test_paviau.log test_data.log
+! cat test_data.log | grep "Batch ., prob" | awk '{print $9}' >& temp1.txt
+! cat test_data.log | grep "Batch .., prob" | awk '{print $9}' >& temp2.txt
+! cat test_data.log | grep "Batch ..., prob" | awk '{print $9}' >& temp3.txt
+! cat test_data.log | grep "Batch ...., prob" | awk '{print $9}' >& temp4.txt
+! cat temp4.txt >> temp3.txt
+! cat temp3.txt >> temp2.txt
+! cat temp2.txt >> temp1.txt
+! cat temp1.txt >> info/paviau_prob.txt
+! rm -r test_data.log temp1.txt temp2.txt temp3.txt temp4.txt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%  for Salinas image   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
