@@ -1,7 +1,8 @@
 # Demo_DFFN
 The code implementation of our paper "Hyperspectral Image Classification With Deep Feature Fusion Network", IEEE Trans. Geosci. Remote Sens, 2018.
 
-If you use this code, please kindly cite our paper: 
+If you use this code, please kindly cite our paper:     
+
 @article{song2018hyperspectral,
   title={Hyperspectral image classification with deep feature fusion network},
   author={Song, Weiwei and Li, Shutao and Fang, Leyuan and Lu, Ting},
