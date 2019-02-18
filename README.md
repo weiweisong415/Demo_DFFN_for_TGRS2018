@@ -17,7 +17,8 @@ If you use this code, please kindly cite our paper:
 This code is tested on the Ubuntu 16.04 system and caffe framework. Before running this code, you should correctly install ubuntu system and caffe framework. For caffe installation, you can refer to this guildeline "http://caffe.berkeleyvision.org/installation.html". Here, we assume the installation location of caffe is : ./Demo_DFFN/caffe-master. In addition, you should also  download the corresponding hyperspectral data sets and put them into folder "./Demo_DFFN/datasets/".
 
 After correctly installing ubuntu and caffe, you can run this code by the following procedures. For the convenience, we take the Indian Pines image as a example. For the University of Pavia and Salinas images, please make some changes referring to codes. 
-(1) Opening the matlab and changing the current path to the unzipped path,  running the "generating_data.m" to generate the training and       test samples, which are saved in the ./samples/indian_pines. Noteworthily, the format of samples is the hdf5 which is efficent for the     caffe input. Here, we have generated these samples for you; 
+
+(1) Opening the matlab and changing the current path to the unzipped path,  running the "generating_data.m" to generate the training and     test samples, which are saved in the ./samples/indian_pines. Noteworthily, the format of samples is the hdf5 which is efficent for       the caffe input. Here, we have generated these samples for you; 
 
 (2) Opening the terminal and changing the current path to the unzipped path, then running this script:
     "sh train_DFFN.sh >& info/train_indian_pines.log". This script executes the training of DFFN and generate the corresponding training       log file;
