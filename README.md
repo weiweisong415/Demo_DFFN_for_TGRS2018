@@ -4,14 +4,23 @@ The code implementation of our paper "Hyperspectral Image Classification With De
 If you use this code, please kindly cite our paper:     
 
 @article{song2018hyperspectral,
+
   title={Hyperspectral image classification with deep feature fusion network},
+  
   author={Song, Weiwei and Li, Shutao and Fang, Leyuan and Lu, Ting},
+  
   journal={IEEE Transactions on Geoscience and Remote Sensing},
+  
   volume={56},
+  
   number={6},
+  
   pages={3173--3184},
+  
   year={2018},
+  
   publisher={IEEE}
+  
 }
 
 This code is tested on the Ubuntu 16.04 system and caffe framework. Before running this code, you should correctly install ubuntu system and caffe framework. For caffe installation, you can refer to this guildeline "http://caffe.berkeleyvision.org/installation.html". Here, we assume the installation location of caffe is : ./Demo_DFFN/caffe-master. In addition, you should also  download the corresponding hyperspectral data sets and put them into folder "./Demo_DFFN/datasets/".
